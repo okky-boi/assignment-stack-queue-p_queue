@@ -62,6 +62,7 @@ void readTop(){
 int main (){
     pushStack(10);
     pushStack(90);
+    pushStack(55);
     readTop();
 
     return 0;
