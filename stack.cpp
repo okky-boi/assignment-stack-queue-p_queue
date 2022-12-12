@@ -33,7 +33,7 @@ void pushStack(int value)
   }
 }
 
-void removeStack()
+void removeTop()
 {
   if (!top)
   { // if linked is empty
@@ -63,6 +63,10 @@ int main (){
     pushStack(10);
     pushStack(90);
     pushStack(55);
+    readTop();
+
+    removeTop();
+
     readTop();
 
     return 0;
