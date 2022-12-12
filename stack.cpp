@@ -56,7 +56,7 @@ void removeTop()
 void readTop(){
     Node *currentNode = top;
     printf("Value: %d\n", currentNode->value);
-    printf("Alamat node sekarang: %p\n", currentNode);
+    printf("Alamat Top sekarang: %p\n", currentNode);
 }
 
 int main (){
